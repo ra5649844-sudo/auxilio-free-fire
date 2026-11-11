@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free Fire - Aimbot Legit Panel</title>
+<style>
+    * {
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+        background-color: #030308;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    .panel {
+        background: #080c14;
+        border: 2px solid #0051ff;
+        box-shadow: 0 0 30px rgba(0, 81, 255, 0.4);
+        border-radius: 16px;
+        padding: 30px;
+        width: 350px;
+        text-align: center;
+    }
+    h2 {
+        color: #00d2ff;
+        margin-bottom: 5px;
+        text-shadow: 0 0 10px rgba(0, 210, 255, 0.7);
+    }
+    .sub-title {
+        font-size: 11px;
+        color: #ff0055;
+        margin-bottom: 25px;
+        font-weight: bold;
+        letter-spacing: 1.5px;
+        text-shadow: 0 0 5px rgba(255, 0, 85, 0.6);
+    }
+    .input-group {
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    label {
+        font-size: 12px;
+        color: #00d2ff;
+        font-weight: bold;
+        display: block;
+        margin-bottom: 6px;
+    }
+    input[type="text"] {
+        width: 100%;
+        padding: 12px;
+        background: #0d1322;
+        border: 1px solid #0051ff;
+        color: #fff;
+        border-radius: 8px;
+        outline: none;
+        font-size: 14px;
+        transition: 0.3s;
+    }
+    input[type="text"]:focus {
+        border-color: #ff0055;
+        box-shadow: 0 0 12px rgba(255, 0, 85, 0.6);
+    }
+    .btn {
+        background: linear-gradient(135deg, #0051ff, #ff0055);
+        color: white;
+        border: none;
+        padding: 12px;
+        width: 100%;
+        border-radius: 8px;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 15px;
+        transition: 0.3s;
+        box-shadow: 0 0 15px rgba(0, 81, 255, 0.5);
+    }
+    .btn:hover {
+        opacity: 0.9;
+        box-shadow: 0 0 20px rgba(255, 0, 85, 0.8);
+    }
+    .status {
+        margin-top: 20px;
+        padding: 12px;
+        border-radius: 8px;
+        font-weight: bold;
+        font-size: 13px;
+        display: none;
+    }
+    .active {
+        background: rgba(0, 255, 100, 0.15);
+        border: 1px solid #00ff64;
+        color: #00ff64;
+        display: block;
+        box-shadow: 0 0 12px rgba(0, 255, 100, 0.4);
+    }
+    .error {
+        background: rgba(255, 0, 85, 0.15);
+        border: 1px solid #ff0055;
+        color: #ff0055;
+        display: block;
+        box-shadow: 0 0 12px rgba(255, 0, 85, 0.4);
+    }
+</style>
+</head>
+<body>
+
+    <!-- Hidden Configuration & Runtime Parameters -->
+    <div style="display:none;">
+        <html play script>
+        <html runtime storage path i/storage/emulate>
+        <html runtime package "com.dts.freefireth">
+        <html running app "Free Fire">
+        <script configuration game>
+        <script layer "configuration">
+        <runtime "lag fix">
+        <runtime internet speed "fast">
+        <aimbot enemy>
+        <aimbot enemy head "90">
+        <aimfov enemy>
+        <aimfov enemy head "360">
+        <aimlock enemy>
+        <aimlock enemy head "90">
+        <easy drag enemy>
+        <easy drag enemy head "90">
+        <easy swap>
+        <easy swap head "very fast">
+        <fire button>
+        <fire button size "any">
+        <character run>
+        <character run "fast">
+        <mobile internet speed>
+        <mobile internet speed "fast">
+        <weapon fire>
+        <weapon fire "fast">
+        <character run increase>
+        <character run increase "true">
+        <increase movement>
+        <increase movement speed "true">
+    </div>
+
+    <div class="panel">
+        <h2>FREE FIRE</h2>
+        <div class="sub-title">AIMBOT LEGIT - FULL RED</div>
+        
+        <div class="input-group">
+            <label>LICENSE KEY:</label>
+            <input type="text" id="keyInput" placeholder="Enter key here...">
+        </div>
+        
+        <button class="btn" onclick="activateHack()">ACTIVATE</button>
+        <div id="statusBox" class="status"></div>
+    </div>
+
+    <script>
+        function activateHack() {
+            const key = document.getElementById('keyInput').value.trim();
+            const statusBox = document.getElementById('statusBox');
+
+            if (key === "aimbotlegit") {
+                statusBox.className = "status active";
+                statusBox.innerText = "Aimbot Legit Active - Full Red Loaded!";
+            } else {
+                statusBox.className = "status error";
+                statusBox.innerText = "Invalid Key! Access Denied.";
+            }
+        }
+    </script>
+</body>
+</html>
